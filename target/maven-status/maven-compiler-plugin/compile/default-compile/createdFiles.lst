@@ -1,0 +1,9 @@
+com\henz\joel\util\Browser.class
+com\henz\joel\pages\SignUpPage.class
+com\henz\joel\util\Util.class
+com\henz\joel\pages\LoginPage.class
+com\henz\joel\pages\AccountPage.class
+com\henz\joel\pages\ContactsPage.class
+com\henz\joel\base\Base.class
+com\henz\joel\base\Base$1.class
+com\henz\joel\pages\HomePage.class

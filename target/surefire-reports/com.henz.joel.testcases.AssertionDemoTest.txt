@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.henz.joel.testcases.AssertionDemoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in com.henz.joel.testcases.AssertionDemoTest
+assertEqualsTest  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: message in case tests fails ==> expected: <firstString> but was: <secondString>
+	at com.henz.joel.testcases.AssertionDemoTest.assertEqualsTest(AssertionDemoTest.java:13)
+
+assertArraysEqualsTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: message in case tests fails ==> expected: [I@74235045<[1, 2, 3]> but was: [I@618b19ad<[1, 2, 3]>
+	at com.henz.joel.testcases.AssertionDemoTest.assertArraysEqualsTest(AssertionDemoTest.java:27)
+
+assertAllTest  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	org.opentest4j.AssertionFailedError: expected: <hello> but was: <world>
+	at com.henz.joel.testcases.AssertionDemoTest.assertAllTest(AssertionDemoTest.java:43)
+
